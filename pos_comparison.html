@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS Pricing Model Comparison for Stadiums and Venues</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+        h1 {
+            color: #1a237e;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 20px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th {
+            background-color: #1a237e;
+            color: white;
+            padding: 15px 10px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+        tr:hover {
+            background-color: #e8eaf6;
+        }
+        .company-name {
+            font-weight: 600;
+            color: #283593;
+        }
+        .notes {
+            font-size: 13px;
+            color: #555;
+            margin-top: 20px;
+            background-color: #e8eaf6;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .notes h3 {
+            margin-top: 0;
+            color: #1a237e;
+        }
+        .notes p {
+            margin: 10px 0;
+        }
+        .yes {
+            color: #388e3c;
+            font-weight: 600;
+        }
+        .no {
+            color: #d32f2f;
+            font-weight: 600;
+        }
+        .rare {
+            color: #f57c00;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>POS Pricing Model Comparison for Stadiums and Venues</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Hardware Costs</th>
+                    <th>Selling</th>
+                    <th>Leasing</th>
+                    <th>Renting</th>
+                    <th>Software Subscription</th>
+                    <th>Per Terminal or Per Venue?</th>
+                    <th>Transaction Fees</th>
+                    <th>Value-Added Services</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="company-name">Shift4</td>
+                    <td>Free/low-cost with contract; terminals $500–$1,000</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (12–36 months)</td>
+                    <td>Yes (~$50–$200/event)</td>
+                    <td>$50–$500/month</td>
+                    <td>Per venue; per-terminal add-ons</td>
+                    <td>1.5–2.5% + $0.10–$0.25 (blended)</td>
+                    <td>Training, analytics ($50–$200/month)</td>
+                    <td>Blended rates; interchange-plus for stadiums; free hardware with contract</td>
+                </tr>
+                <tr>
+                    <td class="company-name">Global Payments</td>
+                    <td>Terminals $200–$800; kiosks leased/bundled</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (12–24 months)</td>
+                    <td>Yes ($50–$300/month or event)</td>
+                    <td>$50–$300/month</td>
+                    <td>Per venue; per-terminal for enterprise</td>
+                    <td>2–2.9% + $0.20–$0.30 (blended or interchange-plus)</td>
+                    <td>Support, insights ($100–$500/month)</td>
+                    <td>Interchange-plus for stadiums; rentals for festivals</td>
+                </tr>
+                <tr>
+                    <td class="company-name">Square</td>
+                    <td>Readers $49–$299; Register $799; financing available</td>
+                    <td class="yes">Yes</td>
+                    <td>Financing (12–24 months, e.g., $35/month)</td>
+                    <td class="no">No</td>
+                    <td>$0 (Free); $29–$60/month; Enterprise custom</td>
+                    <td>Per venue (unlimited terminals)</td>
+                    <td>2.6% + $0.10 (blended)</td>
+                    <td>Marketing, payroll ($35/employee/month)</td>
+                    <td>Blended rates; no per-terminal fees; less suited for stadiums</td>
+                </tr>
+                <tr>
+                    <td class="company-name">SpotOn</td>
+                    <td>Terminals $200–$1,000; free with contract</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (12–36 months)</td>
+                    <td>Yes ($50–$200/event or month)</td>
+                    <td>$25–$195/month; venues $50–$300/month</td>
+                    <td>Per venue; per-terminal for extra devices</td>
+                    <td>1.99% + $0.25 (blended)</td>
+                    <td>Payroll, marketing ($50–$150/month)</td>
+                    <td>Blended rates; price-matching; rentals for events</td>
+                </tr>
+                <tr>
+                    <td class="company-name">Cantaloupe</td>
+                    <td>Kiosks/mobile POS $500–$2,000</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (24–36 months)</td>
+                    <td>Yes ($100–$500/event)</td>
+                    <td>$100–$400/month</td>
+                    <td>Per venue (all terminals)</td>
+                    <td>2–2.5% + $0.20 (blended)</td>
+                    <td>Analytics, support ($100–$300/month)</td>
+                    <td>Blended rates; leases for stadiums like Hard Rock</td>
+                </tr>
+                <tr>
+                    <td class="company-name">MyVenue</td>
+                    <td>Mobile POS/kiosks $300–$1,500; bundled</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (12–36 months)</td>
+                    <td class="rare">Rare ($100–$300/month)</td>
+                    <td>$100–$500/month</td>
+                    <td>Per venue (all terminals)</td>
+                    <td>2–2.5% + $0.15–$0.30 (blended)</td>
+                    <td>Analytics, ticketing ($100–$400/month)</td>
+                    <td>Blended rates; leasing for venues like DC United</td>
+                </tr>
+                <tr>
+                    <td class="company-name">atVenu</td>
+                    <td>Terminals $200–$800; rentals $50–$200/device</td>
+                    <td class="yes">Yes</td>
+                    <td class="no">No</td>
+                    <td>Yes (per-event, 1–7 days)</td>
+                    <td>$50–$200/month or $500–$2,000/event</td>
+                    <td>Per venue/event (all terminals)</td>
+                    <td>2–2.5% (blended)</td>
+                    <td>Inventory, offline mode ($50–$150/month)</td>
+                    <td>Blended rates; event rentals for festivals</td>
+                </tr>
+                <tr>
+                    <td class="company-name">TCPOS (Zucchetti)</td>
+                    <td>Terminals/kiosks $400–$1,500</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (12–36 months)</td>
+                    <td>Yes ($100–$300/month)</td>
+                    <td>$100–$400/month</td>
+                    <td>Per venue; per-terminal possible</td>
+                    <td>2–2.8% + $0.20 (blended)</td>
+                    <td>AI self-checkout ($100–$300/month)</td>
+                    <td>Blended rates; per-terminal for European venues</td>
+                </tr>
+                <tr>
+                    <td class="company-name">Volanté</td>
+                    <td>Terminals/mobile POS $300–$1,000</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (12–24 months)</td>
+                    <td class="rare">Rare ($50–$200/month)</td>
+                    <td>$75–$300/month</td>
+                    <td>Per venue; per-terminal for large setups</td>
+                    <td>2–2.5% + $0.15–$0.25 (blended)</td>
+                    <td>Analytics, support ($50–$200/month)</td>
+                    <td>Blended rates; per-terminal for large stadiums</td>
+                </tr>
+                <tr>
+                    <td class="company-name">Seatlab</td>
+                    <td>Readers $100–$500</td>
+                    <td class="yes">Yes</td>
+                    <td class="rare">Rare (12 months)</td>
+                    <td class="no">No</td>
+                    <td>$50–$200/month or $500–$1,000/event</td>
+                    <td>Per venue/event (all terminals)</td>
+                    <td>1–2% (blended)</td>
+                    <td>NFT ticketing, loyalty ($50–$150/month)</td>
+                    <td>Blended rates; minimal hardware focus</td>
+                </tr>
+                <tr>
+                    <td class="company-name">accesso ShoWare</td>
+                    <td>POS hardware $200–$1,000</td>
+                    <td class="yes">Yes</td>
+                    <td>Yes (12–36 months)</td>
+                    <td>Yes ($50–$200/event)</td>
+                    <td>$100–$500/month</td>
+                    <td>Per venue (all terminals)</td>
+                    <td>2–2.5% + $0.20 (blended)</td>
+                    <td>Ticketing, mobile ordering ($100–$400/month)</td>
+                    <td>Blended rates; leases with ticketing for venues</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="notes">
+            <h3>Clarifications and Notes</h3>
+            <p><strong>Transaction Fees:</strong> Listed fees (e.g., 1.5–2.9% + $0.10–$0.30) are <strong>blended rates</strong>, inclusive of <strong>interchange</strong>, <strong>payment processing</strong>, and <strong>assessment fees</strong>, unless noted (e.g., Global Payments, Shift4 may offer <strong>interchange-plus</strong> for stadiums, separating interchange from markup). Additional fees (e.g., gateway, chargeback, PCI compliance) are separate.</p>
+            <p><strong>Hardware Costs:</strong></p>
+            <ul>
+                <li><strong>Selling:</strong> Costs (e.g., $49 for Square readers, $500–$2,000 for Cantaloupe kiosks) are for outright purchase.</li>
+                <li><strong>Leasing:</strong> Long-term (12–36 months) for stadiums; payments often bundled with software (e.g., Shift4's free terminals with contract).</li>
+                <li><strong>Renting:</strong> Short-term (days to months) for events; per-device or per-event costs (e.g., atVenu's $50–$200/device for 1–7 days).</li>
+                <li>Renting requires sophisticated logistics (e.g., shipping, returns, maintenance); leasing/selling involves simpler one-time shipments.</li>
+            </ul>
+            <p><strong>Software Subscription:</strong></p>
+            <ul>
+                <li>Most providers (e.g., Square, Cantaloupe, MyVenue) charge <strong>per venue</strong>, covering all terminals, ideal for stadiums with many devices.</li>
+                <li>Some (e.g., Global Payments, Volanté) use a <strong>hybrid model</strong>, with per-venue base fees and per-terminal add-ons ($10–$50/month) for extra devices or features.</li>
+                <li>Event-based fees (e.g., atVenu's $500–$2,000/event) cover all terminals for temporary setups.</li>
+            </ul>
+            <p><strong>Data Gaps:</strong> Exact terms for Shift4, Global Payments, Cantaloupe, MyVenue, TCPOS, Volanté, and accesso ShoWare are custom. Estimates are based on competitors (e.g., Square, SpotOn) and industry norms.</p>
+        </div>
+    </div>
+</body>
+</html> 
